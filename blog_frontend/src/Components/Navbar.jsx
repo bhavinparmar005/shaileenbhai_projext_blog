@@ -6,6 +6,9 @@ const Navbar = () => {
     const [isPopupOpen, setIsPopupOpen] = useState(false);
     const [showPassword, setShowPassword] = useState(false);
 
+
+    
+
     return (
         <>
             <nav>
