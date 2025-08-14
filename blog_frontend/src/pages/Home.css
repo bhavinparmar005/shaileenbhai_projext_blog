@@ -1,0 +1,41 @@
+.warapper {
+    width: 1440px;
+   height: auto;
+}
+
+.catagory_main_container{
+    width: 100%;
+    height: 1021px;
+    background-color: #FFFDF5;
+    
+}
+
+.helpline_main_container{
+    width: 100%;
+    height: 230px;
+    background-color: #AB541F;
+}
+.partner_logo_main{
+    width: 100%;
+    height: 320px;
+    /* background-color: teal; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.test{
+    width: 380px;
+    height: 160px;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+}
+.success_story_main{
+    width: 100%;
+    height: 427px;
+    background-color: #086885;
+}
+.contect_details_main{
+    width: 100%;
+    height: 400px;
+    background-color: rebeccapurple;
+}

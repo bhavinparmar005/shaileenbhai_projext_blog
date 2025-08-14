@@ -1,0 +1,41 @@
+footer {
+  width: 100%;
+  height: 68px;
+  background-color: #161616;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copiright {
+  width: 430px;
+  height: 20px;
+  /* border: 1px solid wheat; */
+  color: #ffffff;
+}
+.copiright > p {
+        font-size: 16px;
+        font-weight: 400;
+    
+}
+.policy_main {
+    width: 270px;
+    height: 20px;
+    /* border: 1px solid wheat; */
+    color:#828282 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.policy_main > p{
+    display: inline;
+    cursor: pointer;
+
+}
+
+.mian_copiright {
+  width: 1200px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
