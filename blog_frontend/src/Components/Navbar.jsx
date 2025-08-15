@@ -7,7 +7,7 @@ const Navbar = () => {
     const [showPassword, setShowPassword] = useState(false);
 
 
-    
+
 
     return (
         <>
@@ -68,15 +68,16 @@ const Navbar = () => {
 
                             <div className="show_password_icon" onClick={() => setShowPassword((prev) => !prev)}>
 
-                                   <img
+                                <img
                                     src={
                                         showPassword
-                                            ? "./public/icons/hide_Password.svg"
-                                            : "./public/icons/showPassword_icon.svg"
+                                            ? "./public/icons/showPassword_icon.svg"
+                                            : "./public/icons/hide_Password.svg"
                                     }
+
                                     alt="Toggle password visibility"
                                 />
-                                {/* <img src="./public/icons/showPassword_icon.svg" alt="" /> */}
+
                             </div>
 
                         </div>
@@ -89,12 +90,9 @@ const Navbar = () => {
 
 
                         <div className="reset_password">
-                             
+
                             <p>Forgot Password?<a href="#"> Reset</a></p>
                         </div>
-
-
-
                     </div>
                 </form>
             )}

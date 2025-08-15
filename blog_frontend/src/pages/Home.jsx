@@ -170,17 +170,46 @@ const Home = () => {
 
                 </div>
 
-                <div className="helpline_main_container"></div>
+                <div className="helpline_main_container_wrapper">
 
-                <div className="partner_logo_main">
-                    <div className="test"></div>
-                    <div className="test"></div>
-                    <div className="test"></div>
+                    <div className="helpline_main_containe_main">
+
+                        <div className="helpline_icon_main">
+                            <img src="./public/icons/helpline.svg" alt="" />
+                        </div>
+
+                        <div className="helpline_number_main">
+                            <p>હેલ્પલાઇન નંબર</p>
+                            <p className='helpline_number'>70462 53732 / 98255 49400</p>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div className="partner_logo_main_wrapper">
+                    <div className="partner_logo_main">
+                        <div className="test"></div>
+                        <div className="test"></div>
+                        <div className="test"></div>
+                    </div>
+
                 </div>
 
-                <div className="success_story_main"></div>
 
-                <div className="contect_details_main"></div>
+                <div className="success_story_main_wrapper">
+                    <div className="success_story_main"></div>
+                </div>
+
+
+                <div className="contect_details_main_wrapper">
+
+
+                    <div className="contect_details_main"></div>
+                </div>
+
 
                 <Footer />
             </div>
