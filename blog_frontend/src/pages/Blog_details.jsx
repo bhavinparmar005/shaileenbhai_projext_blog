@@ -1,11 +1,20 @@
 import React, { useEffect } from 'react'
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import "./Blog_details.css"
 
 const Blog_details = () => {
     const location = useLocation();
+    let nav = useNavigate();
+
+       useEffect(() => {
+            const savedData = localStorage.getItem("loginData");
+            if (!savedData) {
+                // Redirect to login page or any other route
+                nav("/")
+            }
+        }, [nav]);
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);

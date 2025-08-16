@@ -7,6 +7,8 @@ import { useNavigate } from 'react-router-dom'
 const Home = () => {
 
     let nav = useNavigate();
+
+ 
     return (
 
 
@@ -179,7 +181,7 @@ const Home = () => {
                         </div>
 
                         <div className="helpline_number_main">
-                            <p>હેલ્પલાઇન નંબર</p>
+                            <p className='helpline_text'>હેલ્પલાઇન નંબર</p>
                             <p className='helpline_number'>70462 53732 / 98255 49400</p>
 
                         </div>
@@ -191,25 +193,129 @@ const Home = () => {
                 </div>
                 <div className="partner_logo_main_wrapper">
                     <div className="partner_logo_main">
-                        <div className="test"></div>
-                        <div className="test"></div>
-                        <div className="test"></div>
+                        <div className="logo_img">
+
+                            <div className="logo_img_container">
+                                <a
+                                    href="https://www.nilkanthjewellers.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <img src="./public/image/patnar_logo.svg" alt="" className='patnar_logo' />
+                                </a>
+
+                            </div>
+                        </div>
+                        <div className="logo_img">
+
+                            <div className="logo_img_container">
+                                <a
+                                    href="https://www.nilkanthjewellers.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <img src="./public/image/patnar_logo.svg" alt="" className='patnar_logo' />
+                                </a>
+
+                            </div>
+                        </div>
+                        <div className="logo_img">
+
+                            <div className="logo_img_container">
+                                <a
+                                    href="https://www.nilkanthjewellers.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <img src="./public/image/patnar_logo.svg" alt="" className='patnar_logo' />
+                                </a>
+
+                            </div>
+                        </div>
                     </div>
 
                 </div>
 
 
                 <div className="success_story_main_wrapper">
-                    <div className="success_story_main"></div>
+                    <div className="success_story_main">
+
+                        <p className='success_story_main_title'>સક્સેસ સ્ટોરી</p>
+
+
+                        <div className="school_details_and_student_main">
+                            <div className="school_details_main">
+                                <div className="school_icon_and_school_no">
+                                    <div className="school_icon">
+                                        <img src="./public/icons/school_icon.svg" alt="" />
+                                    </div>
+                                    <div className="school_no">
+                                        <p>1,090</p>
+                                    </div>
+                                </div>
+                                <div className="school_text">
+                                    <p>શાળાઓ</p>
+                                </div>
+                            </div>
+
+
+                            <div className="school_details_main">
+
+                                <div className="school_icon_and_school_no">
+                                    <div className="school_icon">
+                                        <img src="./public/icons/student_icon.svg" alt="" />
+                                    </div>
+                                    <div className="school_no">
+                                        <p className='student_no_color'>2,905</p>
+                                    </div>
+                                </div>
+                                <div className="school_text">
+                                    <p>વિદ્યાર્થીઓ</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
                 </div>
 
 
                 <div className="contect_details_main_wrapper">
 
 
-                    <div className="contect_details_main"></div>
-                </div>
+                    <div className="contect_details_main">
 
+                        <p className='Contect_details_title'>કોન્ટેક ડિટેલ</p>
+
+                        <div className="contect_details">
+
+                            <div className="email_details_main">
+
+                                <div className="detail_email_icon">
+                                    <img src="./public/icons/email_contect.svg" alt="" />
+                                </div>
+
+                                <p className='contect_email'>skillwillwin@gmail.com</p>
+                            </div>
+
+                            <div className="email_details_main">
+
+                                <div className="detail_email_icon">
+                                    <img src="./public/icons/locations_icon.svg" alt="" />
+                                </div>
+
+                                <p className='contect_addresh'>Karmayog consultancy, 1st floor
+                                    near head post office, Amreli - Gujarat</p>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
 
                 <Footer />
             </div>

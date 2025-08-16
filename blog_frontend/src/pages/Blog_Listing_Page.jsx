@@ -10,6 +10,17 @@ const Blog_Listing_Page = () => {
     const { bgColor, title, titleColor, subTitle } = location.state || {};
 
 
+        useEffect(() => {
+        const savedData = localStorage.getItem("loginData");
+        if (!savedData) {
+            // Redirect to login page or any other route
+            nav("/")
+        }
+    }, [nav]);
+
+
+
+
     let obj = [
         {
             img: "./public/image/img1.jpg",
